@@ -15,6 +15,7 @@ It's good if you wanna learn something, otherwise just add everything together :
 - [ ] Threads and optimization
 - [ ] GUI like the guy in the list of resources, maybe using [ImGui](https://github.com/ocornut/imgui)
 - [ ] Adding support for `.obj` files
+
 Am I going to far? Only time will tell...
 
 ### Resources
