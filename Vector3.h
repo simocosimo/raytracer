@@ -31,12 +31,12 @@ public:
 	Vector3& operator-=(const Vector3& v);
 
 	// Div(/) operators
-	Vector3 operator/(const double& v) const;
-	Vector3& operator/=(const double& v);
+	Vector3 operator/(const double v) const;
+	Vector3& operator/=(const double v);
 
 	// Mul(*) operators
-	Vector3 operator*(const double& v) const;
-	Vector3& operator*=(const double& v);
+	Vector3 operator*(const double v) const;
+	Vector3& operator*=(const double v);
 
 	// << print operator
 	friend std::ostream& operator<<(std::ostream& out, const Vector3& v);

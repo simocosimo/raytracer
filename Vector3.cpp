@@ -32,7 +32,7 @@ double Vector3::getZ() const {
 }
 
 // Operators
-Vector3 Vector3::operator/(const double& v) const {
+Vector3 Vector3::operator/(const double v) const {
 	double _x = this->x / v;
 	double _y = this->y / v;
 	double _z = this->z / v;
@@ -42,10 +42,10 @@ Vector3 Vector3::operator/(const double& v) const {
 	return res;
 }
 
-Vector3& Vector3::operator/=(const double& v) {
+Vector3& Vector3::operator/=(const double v) {
 	this->x /= v;
-	this->x /= v;
-	this->x /= v;
+	this->y /= v;
+	this->z /= v;
 
 	return (*this);
 }
@@ -86,7 +86,7 @@ Vector3& Vector3::operator-=(const Vector3& v) {
 	return (*this);
 }
 
-Vector3 Vector3::operator*(const double& v) const {
+Vector3 Vector3::operator*(const double v) const {
 	double _x = this->x * v;
 	double _y = this->y * v;
 	double _z = this->z * v;
@@ -96,10 +96,10 @@ Vector3 Vector3::operator*(const double& v) const {
 	return res;
 }
 
-Vector3& Vector3::operator*=(const double& v) {
+Vector3& Vector3::operator*=(const double v) {
 	this->x *= v;
-	this->x *= v;
-	this->x *= v;
+	this->y *= v;
+	this->z *= v;
 
 	return (*this);
 }
