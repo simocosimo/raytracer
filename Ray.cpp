@@ -13,7 +13,7 @@ Vector3 Ray::getDirection() const {
 }
 
 Point3 Ray::at(double t) const {
-	return this->origin + (t * this->direction);
+	return this->origin + (this->direction * t);
 }
 
 std::ostream& operator<<(std::ostream& out, const Ray& v) {

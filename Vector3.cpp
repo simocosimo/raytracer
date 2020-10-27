@@ -32,6 +32,9 @@ double Vector3::getZ() const {
 }
 
 // Operators
+// TODO: Overloading depends on operands position, should add all cases
+// Vector3 * double ---> works
+// double * Vector3 ---> nope!
 Vector3 Vector3::operator/(const double v) const {
 	double _x = this->x / v;
 	double _y = this->y / v;
