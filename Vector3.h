@@ -45,5 +45,7 @@ public:
 
 };
 
+using Point3 = Vector3;
+
 #endif // !VECTOR3_H
 
